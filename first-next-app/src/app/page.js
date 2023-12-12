@@ -1,9 +1,15 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import CustomCard from '@/components/CustomCard'
+import MUIForm from '@/components/MUIForm'
+
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <CustomCard title="Welcome to NextJS"></CustomCard>
+      <br></br>
+      
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
